@@ -26,4 +26,9 @@ class PartFour {
     func updateElement() {
         cityPopulation["Москва"] = 13000000
     }
+    
+    //получите значение для одного из ключей
+    func getElement() {
+        let populationInMoscow = cityPopulation["Москва"]
+    }
 }
